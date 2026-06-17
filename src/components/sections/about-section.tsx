@@ -19,11 +19,11 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               }`}
             >
               <h2 className="mb-3 font-sans text-3xl font-light leading-[1.1] tracking-tight text-foreground md:mb-4 md:text-6xl lg:text-7xl">
-                Бизнес
+                Влюбляем
                 <br />
-                в кармане
+                в Туапсе
                 <br />
-                <span className="text-foreground/40">клиента</span>
+                <span className="text-foreground/40">через игру</span>
               </h2>
             </div>
 
@@ -34,10 +34,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               style={{ transitionDelay: "200ms" }}
             >
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Мы превращаем сайты в полноценные мобильные приложения, которые клиенты устанавливают на телефон и используют каждый день.
+                Мы — команда местных энтузиастов, которая придумывает городские квесты и превращает прогулку по Туапсе в увлекательное приключение.
               </p>
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
-                Без команды разработчиков и долгого ожидания — запускаем приложение под ключ и берём всю техническую часть на себя.
+                Каждый маршрут — это реальные истории, легенды и тайны города, которые вы разгадываете прямо на улицах.
               </p>
             </div>
           </div>
@@ -45,9 +45,9 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           {/* Right side - Stats with creative layout */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-12">
             {[
-              { value: "200+", label: "Приложений", sublabel: "Запущено для бизнеса", direction: "right" },
-              { value: "14", label: "Дней", sublabel: "Средний срок запуска", direction: "left" },
-              { value: "x2", label: "Возвраты", sublabel: "Клиенты возвращаются чаще", direction: "right" },
+              { value: "12", label: "Квестов", sublabel: "Маршрутов по городу", direction: "right" },
+              { value: "5000+", label: "Игроков", sublabel: "Прошли наши приключения", direction: "left" },
+              { value: "4.9", label: "Рейтинг", sublabel: "Средняя оценка гостей", direction: "right" },
             ].map((stat, i) => {
               const getRevealClass = () => {
                 if (!isVisible) {
@@ -84,10 +84,10 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
           style={{ transitionDelay: "750ms" }}
         >
           <MagneticButton size="lg" variant="primary" onClick={() => scrollToSection?.(4)}>
-            Получить приложение
+            Забронировать квест
           </MagneticButton>
           <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection?.(1)}>
-            Смотреть кейсы
+            Выбрать квест
           </MagneticButton>
         </div>
       </div>

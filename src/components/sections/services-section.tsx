@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Возможности
+            Как это работает
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что умеет ваше приложение</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Всего 4 шага до приключения</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Push-уведомления",
-              description: "Возвращайте клиентов мгновенными сообщениями прямо на их экран — без затрат на рекламу",
+              title: "Выберите квест",
+              description: "Подберите маршрут по интересам и возрасту — от семейных прогулок до загадок для взрослых",
               direction: "top",
             },
             {
-              title: "Мгновенная загрузка",
-              description: "Приложение работает быстрее сайта и открывается даже при слабом интернете",
+              title: "Забронируйте дату",
+              description: "Укажите удобный день и время, оставьте контакты — мы подтвердим бронь",
               direction: "right",
             },
             {
-              title: "iOS и Android",
-              description: "Ваш бизнес в App Store и Google Play — там, где клиенты проводят больше всего времени",
+              title: "Получите задания",
+              description: "В назначенный день вы получаете маршрут, загадки и подсказки — стартуйте откуда удобно",
               direction: "left",
             },
             {
-              title: "Иконка на экране",
-              description: "Бренд всегда под рукой у клиента — один тап вместо поиска в браузере",
+              title: "Пройдите приключение",
+              description: "Разгадывайте загадки у достопримечательностей города и узнавайте Туапсе с новой стороны",
               direction: "bottom",
             },
           ].map((service, i) => (

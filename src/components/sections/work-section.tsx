@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Кейсы
+            Квесты
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Бизнесы, которые перешли в приложение</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Маршруты по Туапсе</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "Кофейня «Зерно»",
-              category: "Заказы выросли на 40% после запуска приложения",
-              year: "2025",
+              title: "Тайны старого порта",
+              category: "Загадки морской истории · 1.5 часа",
+              year: "12+",
               direction: "left",
             },
             {
               number: "02",
-              title: "Магазин «Свежесть»",
-              category: "Push-рассылки вернули 25% спящих клиентов",
-              year: "2025",
+              title: "Легенды Кадошских скал",
+              category: "Маршрут вдоль моря · 2 часа",
+              year: "14+",
               direction: "right",
             },
             {
               number: "03",
-              title: "Студия «Форма»",
-              category: "Онлайн-запись в один тап вместо звонков",
-              year: "2024",
+              title: "Прогулка по старому городу",
+              category: "Семейный квест в центре · 1 час",
+              year: "6+",
               direction: "left",
             },
           ].map((project, i) => (
